@@ -1,4 +1,13 @@
 <template>
+  <div class="header">
+    <ul>
+      <li>カテゴリー１</li>
+      <li>カテゴリー2</li>
+      <li>カテゴリー3</li>
+      <li>カテゴリー4</li>
+      <li>カテゴリー5</li>
+    </ul>
+  </div>
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
@@ -7,6 +16,8 @@
 </template>
 
 <style>
+@import "./assets/stylesheets/reset.css";
+@import "./assets/stylesheets/header.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
