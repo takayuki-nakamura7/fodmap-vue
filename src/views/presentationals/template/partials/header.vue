@@ -1,11 +1,12 @@
 <template>
-  <div class="header">
+  <nav class="header-bar">
     <ul>
-      <li>カテゴリー１</li>
-      <li>カテゴリー2</li>
-      <li>カテゴリー3</li>
-      <li>カテゴリー4</li>
-      <li>カテゴリー5</li>
+      <li>IBSとは</li>
+      <li>レシピ検索</li>
+      <li>レシピを作成</li>
+      <li>お気に入り</li>
+      <li>マイページ</li>
+      <li>ログアウト</li>
     </ul>
-  </div>
+  </nav>
 </template>
