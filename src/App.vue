@@ -16,8 +16,8 @@
 </template>
 
 <style>
-@import "./assets/stylesheets/reset.css";
-@import "./assets/stylesheets/header.css";
+@import "./assets/stylesheets/reset.scss";
+@import "./assets/stylesheets/header.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
