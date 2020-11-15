@@ -1,19 +1,20 @@
 <template>
-  <div class="header">
-    <ul>
-      <li>カテゴリー１</li>
-      <li>カテゴリー2</li>
-      <li>カテゴリー3</li>
-      <li>カテゴリー4</li>
-      <li>カテゴリー5</li>
-    </ul>
-  </div>
+  <Header />
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
+<script>
+import Header from '@/views/presentationals/template/partials/header.vue'
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
 
 <style>
 @import "./assets/stylesheets/reset.scss";

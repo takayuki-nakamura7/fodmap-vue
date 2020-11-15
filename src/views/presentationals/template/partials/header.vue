@@ -1,17 +1,11 @@
 <template>
   <div class="header">
-    <h1>This is an header</h1>
+    <ul>
+      <li>カテゴリー１</li>
+      <li>カテゴリー2</li>
+      <li>カテゴリー3</li>
+      <li>カテゴリー4</li>
+      <li>カテゴリー5</li>
+    </ul>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import Header from '@/views/presentationals/template/partials/header.vue'
-
-export default {
-  name: 'home',
-  components: {
-    Header
-  }
-}
-</script>
