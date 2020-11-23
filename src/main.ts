@@ -1,13 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './config/router'
-import '@/assets/stylesheets/main.scss'
-import '@/assets/stylesheets/reset.scss'
-import '@/assets/stylesheets/header.scss'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './config/router';
+import '@/assets/stylesheets/main.scss';
+import '@/assets/stylesheets/reset.scss';
+import '@/assets/stylesheets/header.scss';
 
-
-const app = createApp(App)
-app.use(router)
+const app = createApp(App);
+app.use(router);
 //
 // Global
 //
@@ -17,4 +16,4 @@ app.use(router)
 //
 
 // init
-app.mount('#app')
+app.mount('#app');
